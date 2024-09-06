@@ -1,0 +1,440 @@
+body {
+    background-color: rgb(44, 41, 41);
+    color: white;
+}
+
+.fullPart {
+    display: flex;
+}
+
+.left {
+    width: 20vw;
+    margin-top: 10px;
+    overflow: auto;
+    position: fixed;
+
+}
+
+.right {
+    width: 80vw;
+    margin-left: 20vw;
+}
+
+.part {
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 8px;
+    background-color: white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.part img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.part:hover {
+    padding-right: 110px;
+    transition: ease all 0.5s;
+    background-color: rgb(22, 167, 225);
+
+    .text {
+        display: block;
+    }
+}
+
+.part-active {
+    background-color: rgb(22, 167, 225) !important;
+}
+
+.text {
+    font-size: 17px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 16px;
+    font-weight: bold;
+    display: none;
+    text-decoration: none;
+}
+
+.profileOne img {
+    width: auto;
+    height: 300px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 2em;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 100px;
+    margin-right: 100px;
+    font-weight: bold;
+    color: linear-gradient(to right, #d60e9e, #d20eae) 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#changeText {
+    margin-left: 5px;
+    font-size: 25px;
+    color: red;
+    transition: color 0.5s;
+}
+
+.heading {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.gradient-border-text {
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #0A84FF;
+    border: 0.4px solid white;
+    border-radius: 10px;
+    animation: borderColorChange 3s infinite;
+    margin-left: 220px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.profileTwo img {
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 80px 80px;
+    background-color: white;
+    margin-left: 250px;
+}
+
+.me {
+    color: gray;
+}
+
+.me img {
+    filter: invert(2);
+    margin-right: 4px;
+}
+
+#ab {
+    font-size: 14px;
+}
+
+.border {
+    height: auto;
+    border-left: 7px solid white;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
+.sideCard {
+    height: 50px;
+    width: 50px;
+    border: 7px solid white;
+    border-radius: 50px;
+    background-color: #0A84FF;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: -34px;
+    margin-top: 100px;
+}
+
+.sideCard img {
+    width: 30px;
+    height: auto;
+    display: block;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.card {
+    padding: 20px;
+    height: auto;
+    width: 500px;
+    border-left: 5px solid #0A84FF;
+    background-color: rgb(2, 1, 1);
+    margin-top: 110px;
+    margin-left: 17px;
+    position: relative;
+    transform: translateX(100px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.card.animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    margin-left: 10px;
+    margin-top: 14px;
+    left: -20px;
+    width: 0;
+    height: 0;
+    transform: rotate(135deg);
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid #007bff;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 10px solid #0A84FF;
+    transform: rotate(25deg);
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.cardHeading {
+    font-size: 30px;
+}
+
+.cardTitle {
+    font-size: 20px;
+    color: gray;
+}
+
+.descriptionCard {
+    color: gray;
+}
+
+.date {
+    color: gray;
+    font-size: 14px;
+}
+
+.projectLogo img {
+    margin-bottom: 5px;
+}
+
+.programName {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+}
+
+.sourceCode {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin-top: 7px;
+}
+
+.skillsName img {
+    margin-right: 30px;
+}
+
+.skills {
+    margin-top: 30px;
+}
+
+.fullSkills {
+    border: 2px solid rgb(237, 229, 229);
+    width: 640px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(235, 157, 12)
+}
+
+.scroll-image {
+    position: relative;
+    transform: translateX(100px);
+    transition: opacity 0.6s ease, transform 1s ease;
+}
+
+#email {
+    width: 500px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 40px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#message {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 40px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+}
+
+.socialMedia {
+    margin-right: 10px;
+}
+
+.social {
+    margin-bottom: 20px;
+}
+
+#cv {
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0A84FF;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+#cv:hover {
+    background-color: rgba(17, 233, 17, 0.766);
+    color: black;
+}
+
+.hamburger {
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+    background-color: #0A84FF;
+    display: none;
+}
+
+.hamburger:hover {
+    background-color: rgb(11, 240, 11);
+}
+
+.hamburger img {
+    margin-top: 8px;
+    margin-left: 7px;
+}
+
+@media (max-width:800px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .text {
+        display: block;
+    }
+
+    .profileOne img {
+        padding-top: 1.7em;
+        margin-left: 0;
+        width: auto;
+        margin-right: 0px;
+        margin-top: 60px;
+    }
+
+    .card {
+        padding: 4px;
+        height: auto;
+        width: 100%;
+        border-left: 5px solid #0A84FF;
+        background-color: rgb(2, 1, 1);
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+
+    .home {
+        height: 100%;
+        margin-top: 0;
+    }
+
+    .profileTwo img {
+        margin-left: 6em;
+    }
+
+    .gradient-border-text {
+        margin-left: 3em;
+    }
+
+    .sideCard {
+        height: 30px;
+        width: 30px;
+        border: 3px solid white;
+        margin-top: 44px;
+        margin-left: -20px;
+    }
+
+    .sideCard img {
+        width: 17px;
+        margin-top: 4px;
+        margin-left: 4px;
+    }
+
+    .descriptionCard ul li {
+        font-size: 12px;
+    }
+
+    .programName {
+        font-size: 10px;
+        padding: 7px;
+    }
+
+    .program {
+        margin-left: 10px;
+    }
+
+    .sourceCode {
+        font-size: 10px;
+        padding: 4px;
+        margin-left: 10px;
+        border-radius: 4px;
+    }
+
+    .fullSkills {
+        width: 320px;
+        padding: 10px;
+        margin-left: 40px;
+    }
+
+    .skillsName img {
+        margin-right: 40px;
+        width: 50px;
+    }
+
+    .border {
+        margin-left: 20px;
+    }
+
+    #changeText {
+        font-size: 17px;
+    }
+
+    .textS {
+        margin-left: 30px;
+    }
+}
