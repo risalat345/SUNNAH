@@ -336,7 +336,7 @@ body {
     margin-left: 7px;
 }
 
-@media (max-width:800px) {
+@media (max-width:400px) {
     .left {
         display: none;
     }
