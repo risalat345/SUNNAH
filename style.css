@@ -351,11 +351,12 @@ body {
     }
 
     .profileOne img {
-        padding-top: 1.7em;
-        width:200px;
-        height: 280px;
-        margin-top: 60px;
-        margin-right: 20px;
+      
+        position: relative;
+        margin-right: 100px;      
+    }
+    .bgname{
+        position: absolute;
     }
     .card {
         padding:10px;
