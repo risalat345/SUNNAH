@@ -337,6 +337,9 @@ body {
 }
 
 @media (max-width:1080px) {
+    .name{
+        font-size: 25px;
+    }
     .left {
         display: none;
     }
@@ -349,14 +352,13 @@ body {
     .text {
         display: block;
     }
-
-    .profileOne img {
-      
-        position: relative;
-        margin-right: 100px;      
-    }
-    .bgname{
+    .textS{
         position: absolute;
+    }
+    .profileOne img {
+        padding-top:1em;
+        position: relative;
+        margin-left: 11em;  
     }
     .card {
         padding:10px;
@@ -427,7 +429,10 @@ body {
         margin-right: 40px;
         width: 50px;
     }
-
+.social{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
     .border {
         margin-left: 20px;
     }
