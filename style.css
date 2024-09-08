@@ -331,8 +331,8 @@ body {
 }
 @media (max-width:800px) {
     .name{
-        font-size:0.5rem;
-        margin-top: 60px;
+        font-size:1.5rem;
+        margin-top: 70px;
         margin-right:0px;
     }
     .left {
@@ -421,8 +421,8 @@ body {
         width: 50px;
     }
 .social{
-    margin-top:4px;
-    margin-bottom:4px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
     .border {
         margin-left: 20px;
