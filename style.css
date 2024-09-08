@@ -2,19 +2,15 @@ body {
     background-color: rgb(44, 41, 41);
     color: white;
 }
-
 .fullPart {
     display: flex;
 }
-
 .left {
     width: 20vw;
     margin-top: 10px;
     overflow: auto;
     position: fixed;
-
 }
-
 .right {
     width: 80vw;
     margin-left: 20vw;
@@ -33,12 +29,10 @@ body {
     border-radius: 50px;
     text-decoration: none;
 }
-
 .part img {
     width: 30px;
     margin-left: 10px;
 }
-
 .part:hover {
     padding-right: 110px;
     transition: ease all 0.5s;
@@ -48,11 +42,9 @@ body {
         display: block;
     }
 }
-
 .part-active {
     background-color: rgb(22, 167, 225) !important;
 }
-
 .text {
     font-size: 17px;
     color: black;
@@ -62,7 +54,6 @@ body {
     display: none;
     text-decoration: none;
 }
-
 .profileOne img {
     width: auto;
     height:350px;
@@ -119,27 +110,22 @@ body {
     background-color: white;
     margin-left: 250px;
 }
-
 .me {
     color: gray;
 }
-
 .me img {
     filter: invert(2);
     margin-right: 4px;
 }
-
 #ab {
     font-size: 14px;
 }
-
 .border {
     height: auto;
     border-left: 7px solid white;
     margin-left: 40px;
     margin-bottom: 100px;
 }
-
 .sideCard {
     height: 50px;
     width: 50px;
@@ -152,7 +138,6 @@ body {
     margin-left: -34px;
     margin-top: 100px;
 }
-
 .sideCard img {
     width: 30px;
     height: auto;
@@ -160,7 +145,6 @@ body {
     margin-top: 8px;
     margin-left: 10px;
 }
-
 .card {
     padding: 20px;
     height: auto;
@@ -178,7 +162,6 @@ body {
     opacity: 1;
     transform: translateZ(0);
 }
-
 .card::before {
     content: "";
     position: absolute;
@@ -192,7 +175,6 @@ body {
     border-left: 20px solid transparent;
     border-bottom: 20px solid #007bff;
 }
-
 .triangle {
     width: 0;
     height: 0;
@@ -204,29 +186,23 @@ body {
     margin-top: 120px;
     margin-left: 100px;
 }
-
 .cardHeading {
     font-size: 30px;
 }
-
 .cardTitle {
     font-size: 20px;
     color: gray;
 }
-
 .descriptionCard {
     color: gray;
 }
-
 .date {
     color: gray;
     font-size: 14px;
 }
-
 .projectLogo img {
     margin-bottom: 5px;
 }
-
 .programName {
     font-size: 14px;
     padding: 10px;
@@ -235,7 +211,6 @@ body {
     color: black;
     margin-right: 10px;
 }
-
 .sourceCode {
     font-size: 14px;
     padding: 10px;
@@ -245,15 +220,12 @@ body {
     text-decoration: none;
     margin-top: 7px;
 }
-
 .skillsName img {
     margin-right: 30px;
 }
-
 .skills {
     margin-top: 30px;
 }
-
 .fullSkills {
     border: 2px solid rgb(237, 229, 229);
     width: 640px;
@@ -262,13 +234,11 @@ body {
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
     background-color: rgb(235, 157, 12)
 }
-
 .scroll-image {
     position: relative;
     transform: translateX(100px);
     transition: opacity 0.6s ease, transform 1s ease;
 }
-
 #email {
     width: 500px;
     height: 30px;
@@ -279,7 +249,6 @@ body {
     color: white;
     margin-bottom: 20px;
 }
-
 #message {
     width: 500px;
     height: 100px;
@@ -289,7 +258,6 @@ body {
     border: none;
     color: white;
 }
-
 .socialMedia {
     margin-right: 10px;
 }
@@ -321,7 +289,6 @@ body {
 .hamburger:hover {
     background-color: rgb(11, 240, 11);
 }
-
 .hamburger img {
     margin-top: 8px;
     margin-left: 7px;
@@ -330,6 +297,9 @@ body {
     font-size: 30px;
 }
 @media (max-width:800px) {
+    body{
+        overflow-x: hidden;
+    }
     .name{
         font-size:1.3rem;
         margin-top: 100px;
@@ -365,15 +335,12 @@ body {
         height: 100%;
         margin-top: 0;
     }
-
     .profileTwo img {
         margin-left: 6em;
     }
-
     .gradient-border-text {
         margin-left: 3em;
     }
-
     .sideCard {
         height: 30px;
         width: 30px;
@@ -382,34 +349,28 @@ body {
         margin-left: -20px;
         position: absolute;
     }
-
     .sideCard img {
         width: 17px;
         margin-top: 2px;
         margin-left: 6px;
        
     }
-
     .descriptionCard ul li {
         font-size: 12px;
     }
-
     .programName {
         font-size: 10px;
         padding: 7px;
     }
-
     .program {
         margin-left: 10px;
     }
-
     .sourceCode {
         font-size: 10px;
         padding: 4px;
         margin-left: 10px;
         border-radius: 4px;
     }
-
     .fullSkills {
         width: 320px;
         padding: 10px;
@@ -433,5 +394,4 @@ body {
     .changeText{
         font-size: 16px;
     }
-
 }
