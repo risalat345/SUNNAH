@@ -331,7 +331,7 @@ body {
 }
 @media (max-width:800px) {
     .name{
-        font-size:1.5rem;
+        font-size:1.3rem;
         margin-top: 70px;
         margin-right:0px;
     }
@@ -413,7 +413,7 @@ body {
     .fullSkills {
         width: 320px;
         padding: 10px;
-        margin-left:10px;
+        margin-left:15px;
     }
 
     .skillsName img {
@@ -421,17 +421,17 @@ body {
         width: 50px;
     }
 .social{
-    margin-top:10px;
-    margin-bottom:10px;
+    margin-top:20px;
+    margin-bottom:20px;
 }
     .border {
         margin-left: 20px;
     }
     #changeText {
-        font-size: 14px;
+        font-size: 16px;
     }
     .changeText{
-        font-size: 14px;
+        font-size: 16px;
     }
 
 }
