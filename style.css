@@ -68,7 +68,6 @@ body {
     background-clip: text;
     color: transparent;
     margin-top: 40px;
-    margin-right: 100px;
     font-weight: bold;
     color: linear-gradient(to right, #d60e9e, #d20eae) 1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -378,7 +377,7 @@ body {
     }
 
     .skillsName img {
-        margin-right: 40px;
+        margin-right: 0px;
         width: 50px;
     }
 .social{
