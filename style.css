@@ -19,7 +19,10 @@ body {
     width: 80vw;
     margin-left: 20vw;
 }
-
+.homeContainer{
+    height: 350px;
+    width: auto;
+}
 .part {
     cursor: pointer;
     display: flex;
@@ -62,12 +65,10 @@ body {
 
 .profileOne img {
     width: auto;
-    height: 300px;
-    margin-right: 100px;
-    margin-top: 50px;
-    border-radius: 10px;
+    height:350px;
+    border-radius: 20px;
+    margin-right: 20px;
 }
-
 .name {
     font-size: 2em;
     background: linear-gradient(to right, #ff7e5f, #feb47b);
@@ -75,20 +76,18 @@ body {
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
-    margin-top: 100px;
+    margin-top: 40px;
     margin-right: 100px;
     font-weight: bold;
     color: linear-gradient(to right, #d60e9e, #d20eae) 1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 #changeText {
     margin-left: 5px;
-    font-size: 25px;
-    color: red;
+    font-size: 30px;
+    color:rgba(248, 0, 0, 0.906);
     transition: color 0.5s;
 }
-
 .heading {
     display: block;
     font-size: 2rem;
@@ -98,7 +97,6 @@ body {
     border-bottom: 2px solid #333;
     padding-bottom: 10px;
 }
-
 .gradient-border-text {
     height: 40px;
     width: 200px;
@@ -114,7 +112,6 @@ body {
     margin-left: 220px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-
 .profileTwo img {
     width: 200px;
     border: 2px solid red;
@@ -296,29 +293,23 @@ body {
 .socialMedia {
     margin-right: 10px;
 }
-
-.social {
-    margin-bottom: 20px;
+.social{
+    margin-bottom:  30px;
 }
-
 #cv {
-    padding: 10px;
+    padding: 14px;
     color: white;
     font-size: 14px;
     margin-top: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0A84FF;
-    border-radius: 10px;
+    background-color: rgb(53, 5, 225);
+    border-radius: 4px;
     text-decoration: none;
     cursor: pointer;
-    border: 2px solid white;
 }
-
-#cv:hover {
-    background-color: rgba(17, 233, 17, 0.766);
-    color: black;
+#cv:hover{
+    border:0.5px solid white;
 }
-
 .hamburger {
     height: 40px;
     width: 40px;
@@ -335,10 +326,12 @@ body {
     margin-top: 8px;
     margin-left: 7px;
 }
-
-@media (max-width:1080px) {
+.changeText{
+    font-size: 30px;
+}
+@media (max-width:800px) {
     .name{
-        font-size: 25px;
+        font-size:2rem;
     }
     .left {
         display: none;
@@ -351,14 +344,6 @@ body {
 
     .text {
         display: block;
-    }
-    .textS{
-        position: absolute;
-    }
-    .profileOne img {
-        padding-top:1em;
-        position: relative;
-        margin-left: 11em;  
     }
     .card {
         padding:10px;
@@ -437,6 +422,6 @@ body {
         margin-left: 20px;
     }
     #changeText {
-        font-size: 17px;
+        font-size: 20px;
     }
 }
