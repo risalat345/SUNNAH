@@ -303,7 +303,6 @@ body,html {
         width: auto;
         height:250px;
         margin-top: 4rem;
-        margin-right: 20px;
     }
     .right {
         width: 100%;
@@ -368,9 +367,8 @@ body,html {
         padding: 10px;
         margin-left:15px;
     }
-
     .skillsName img {
-        margin-right:20px;
+        margin-left:20px;
         width: 50px;
     }
 .social{
@@ -385,5 +383,8 @@ body,html {
     }
     .changeText{
         font-size: 16px;
+    }
+    .textS{
+        margin-left: 10px;
     }
 }
