@@ -329,7 +329,7 @@ body {
 .changeText{
     font-size: 30px;
 }
-@media (max-width:800px) {
+@media (max-width:1080px) {
     .name{
         font-size:2rem;
     }
