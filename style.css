@@ -329,14 +329,20 @@ body {
 .changeText{
     font-size: 30px;
 }
-@media (max-width:1080px) {
+@media (max-width:800px) {
     .name{
         font-size:2rem;
+        margin-top: 60px;
+        margin-right:0px;
     }
     .left {
         display: none;
     }
-
+    .profileOne img {
+        width: auto;
+        height:250px;
+        margin-top: 4rem;
+    }
     .right {
         width: 100%;
         margin-left: 0;
